@@ -1,32 +1,31 @@
-
-h1 {
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight: 800;
-}
-
 h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
 }
 
+h3 {
+    font-weight: 900;
+}
+
 .container {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .header {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 24px;
     padding-top: 16px;
 }
 
 .headerlogo {
     font-size: 24px;
+    font-weight: bolder;
     display: flex;
 }
 
@@ -34,46 +33,71 @@ h2 {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex; 
-    justify-content: space-evenly;
-    padding: 32px;
+    justify-content: center;
+    padding: 84px;
 }
 
 .subcontainer1-1 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    flex-shrink: 0;
+    width: 400px;
+    height: 200px;
+}
+
+.awesome {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
 }
 
 .subcontainer1-2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    border: 0px solid gray;
+    background-color: gray;
+    width: 400px;
+    height: 175px;
+}
+
+.buttontop {
+    border-color: #1f2937;
+    margin-top: 12px;
 }
 
 .section2 {
     display: flex;
-    padding: 32px;
-    flex-direction: column;
-    gap: 16px;
-    align-items: center;
+    justify-content: center;
+    padding: 84px;
+    gap: 24px;
 }
 
 .section2-1 {
-    display: flex;
+    position: absolute;
+    top: 415px;
 }
 
 .section2-2 {
     display: flex;
-    align-content: space-between;
-    gap: 36px;
+    flex-direction: column;
 }
 
 .section2-3 {
-    display: flex;
+    display: flex;  
+    flex-direction: column;
 }
 
-.subtitle {
-    text-align: center;
+.section2-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-5 {
+    display: flex;
+    flex-direction: column;
 }
 
 .square {
@@ -91,7 +115,6 @@ h2 {
     color: #1f2937;
     padding: 32px;
     display: flex;
-   
 }
 
 .section3-1 {
@@ -119,6 +142,15 @@ h2 {
     color: #f9faf8;
     border-radius: 25px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding: 12px;
+}
+
+.buttonbottom {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer {
@@ -126,6 +158,7 @@ h2 {
     color: #f9faf8;
     display: flex;
     justify-content: center;
+    padding: 32px;
 }
 
 button {
